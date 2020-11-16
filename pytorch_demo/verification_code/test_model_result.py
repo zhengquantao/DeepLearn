@@ -15,6 +15,7 @@ def main(image: str) -> None:
     cnn.load_state_dict(torch.load('model.pkl'))
     print("load cnn net.")
     t_image = transform(Image.open(image).convert("RGB"))
+    t_image = torch.unsqueeze(t_image, 0)
     v_image = Variable(t_image)
     predict_label = cnn(v_image)
     c0 = out_place[np.argmax(predict_label[0, 0:out_length].data.numpy())]
