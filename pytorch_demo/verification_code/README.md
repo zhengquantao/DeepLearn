@@ -5,7 +5,7 @@
 * cnn_network.py            CNN网络模型 
 * image_setting.py          图片配置信息
 * dataset.py                加载数据集
-* create_torch_model.py     生成模型
+* train_torch_model.py     生成模型
 * test_model_result.py      测试验证码准确度
 
 

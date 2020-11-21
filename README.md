@@ -2,7 +2,8 @@
 
 ## pytorch_demo
 * verification_code 验证码识别
-* face_recognition  人脸识别
+* face_recognition  人脸识别 (load...)
 
 ## tensorflow_demo
-  load...
+* verification_code 验证码识别
+* face_recognition  人脸识别  (load...)
